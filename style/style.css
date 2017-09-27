@@ -1,0 +1,173 @@
+body {
+    font-family: Arial;
+    background-image: url(../img/bg.png);
+    background-position: center top;
+    background-size: cover;
+}
+p {
+    font-family: Arial;
+    font-size: 14px;
+    color: #4e5050;
+    line-height: 19px;
+}
+.white-wrapper {
+    width: 900px;
+    margin: 228px auto 134px auto;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.16);
+    padding: 62px 62px 62px 62px;
+    background-color: #ffffff;
+}
+.horizont-img {
+    display: block;
+    width: 406px;
+    margin: 29px auto 25px auto; 
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 32px;
+    color: #263555;
+    margin: 48px 0px 44px 0px;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 32px;
+    color: #253455;
+    margin: 48px 0px 44px 0px;
+}
+h4{
+    font-family: Arial;
+    font-size: 15px;
+    color: #263555;
+    margin: 17px 0px;
+    line-height: 19px;
+    font-weight: 600;
+}
+.left-ul {
+    display: inline-block;
+    font-size: 16px;
+    color: #263555;
+    line-height: 38px;
+    list-style-type: none;
+    margin: 32px 0px 0px 24px;
+    position: relative;
+}
+.right-ul {
+    display: inline-block;
+    font-size: 16px;
+    color: #263555;
+    line-height: 38px;
+    list-style-type: none;
+    margin: 29px 0px 0px 46px;
+    vertical-align: top;
+    position: relative;
+   }
+.left-ul li::before {
+    content: url("../img/right-arrow.png");
+    display: inline-block;
+    position: absolute;
+    right: 227px;
+}
+.right-ul li::before {
+    content: url("../img/right-arrow.png");
+    display: inline-block;
+    position: absolute;
+    right: 211px;
+}
+.testimonial-item {
+    position: relative;
+    bottom: 27px;
+    text-align: center;
+}
+.quote {
+    z-index: 2;
+    position: absolute;
+    padding: 22px;
+    width: 172px;
+    text-align: left;
+   }
+.quote::before {
+    content: "\201c";
+}
+.quote::after {
+    content: "\201d";
+}
+
+.footer{
+    background-color: #30455b;
+    width: 100%;
+    height: 10px;
+    padding: 62px 62px 62px 62px;
+    text-align: center;
+    margin: 70px -20px -62px -62px;
+}
+.f-column {
+    display: inline-block;
+    margin: 23px;
+    text-align: left;
+    }
+.footer p{
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+}
+.contact-us {
+        text-align: left;
+    
+}
+.footer span {
+    color: white;
+}
+ol {
+    padding-left: 35px;
+    list-style-type: none;
+    margin-bottom: 89px;
+    counter-reset: point;
+    position: relative;
+}
+ol li:before {
+	content: counter(point); 
+	counter-increment: point 1; 
+    font-size: 15px; 
+    line-height: 29px;
+	background: #38afe5;
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+	color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+}
+.left-column {
+    float: left;
+    width: 646px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.left-column img {
+    float: left;
+    margin: 0px 24px 17px 0px;
+}
+.right-column {
+    float: right;
+    width: 208px;
+   }
+
+hr {
+    border: none; 
+    background-color: #dedbdb; 
+    color: #dedbdb; 
+    height: 1px;
+}
